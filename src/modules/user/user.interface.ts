@@ -1,6 +1,6 @@
 export interface RegisterUserPayload {
-    name: string;
-    email: string;
-    password: string;
-    profilePhoto?: string;
+  name: string;
+  email: string;
+  password: string;
+  profilePhoto?: string;
 }

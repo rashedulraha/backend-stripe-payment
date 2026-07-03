@@ -1,32 +1,20 @@
-const createComment = () => {
+const createComment = () => {};
 
-}
+const getCommentByAuthorId = () => {};
 
-const getCommentByAuthorId = () => {
+const getCommentByCommentId = () => {};
 
-}
+const updateComment = () => {};
 
-const getCommentByCommentId = () => {
+const deleteComment = () => {};
 
-}
-
-const updateComment = () => {
-
-}
-
-const deleteComment = () => {
-
-}
-
-const moderateComment = () => {
-
-}
+const moderateComment = () => {};
 
 export const commentService = {
-    createComment,
-    getCommentByAuthorId,
-    getCommentByCommentId,
-    updateComment,
-    deleteComment,
-    moderateComment
-}
+  createComment,
+  getCommentByAuthorId,
+  getCommentByCommentId,
+  updateComment,
+  deleteComment,
+  moderateComment,
+};
