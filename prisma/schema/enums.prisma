@@ -15,7 +15,16 @@ enum PostStatus {
   ARCHIVED
 }
 
+
+ 
+enum subscription{
+  ACTIVE
+  CANCEL
+  EXPIRED
+}
 enum CommentStatus {
   APPROVED
   REJECT
 }
+
+
